@@ -1,13 +1,13 @@
 import turtle
 import sys
 
-def forcircle(time,FirstRadios,AddRadiosEveryTimes) :
-    turtle.circle(FirstRadios, None, None)
+def forcircle(time,firstRadios,addRadiosEveryTimes) :
+    turtle.circle(firstRadios, None, None)
     for i in range(time):
-        FirstRadios = FirstRadios + AddRadiosEveryTimes
+        firstRadios = firstRadios + addRadiosEveryTimes
         if i == time :
             sys.exit()
-        turtle.circle(FirstRadios, None, None)
+        turtle.circle(firstRadios, None, None)
 
 
 
